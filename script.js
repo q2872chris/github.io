@@ -27,7 +27,7 @@ async function loadMessages() {
 
     div.innerHTML = `
       <div class="username"></div>
-      <div class="text"></div>
+      <div class="text" style="width: 90%;"></div>
       <div class="date"></div>
       <button class="copy-button">Copy</button>
     `;
